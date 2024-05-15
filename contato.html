@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abrigo amigo</title>
+  <link rel="stylesheet" href="contato.css">
+
+
+</head>
+
+<body>
+
+
+  <form action="">
+
+
+    <div class="box">
+
+      <fieldset>
+
+        <legend><b>Fórmulario para Doação</b></legend>
+
+        <div>
+          <label for="especie" class="labelInput">Espécie:</label>
+          <input type="text" name="especie" id="especie" class="inputUser" required="especie" placeholder="Digite a Espécie do Animal">
+        </div>
+        <br><br>
+        <div>
+          <label for="idade" class="labelInput">Idade do Animal:</label>
+          <input type="text" name="idade" id="idade" class="inputUser" required="idade" placeholder="Digite a Idade do Animal">
+        </div>
+        <br><br>
+
+        <div class="inputBox">
+          <label for="email" class="labelInput">Email Para Contato:</label>
+          <input type="text" name="email" id="email" class="inputUser" required="email" placeholder="email@gmail.com">
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <label for="telefome" class="labelInput">Telefone Para Contato:</label>
+          <input type="telefone" name="telefone" id="telefone"  class="inputUser" required="telefone"
+            placeholder="(xx)xxxxx-xxxx">
+
+
+          <div class="descricao">
+            <label for="mensagem">Descrição:</label>
+          </div>
+          <textarea name="" id="descricao" cols="2" rows="2" class="input-padrao"></textarea>
+
+
+
+        </div>
+
+        <div>
+          <P class="dados1">Como você gostaria de receber o nosso contato?</P>
+          <br>
+
+          <label for="radioemail"><input type="radio" name="contato" id="radioemail">E-mail</label>
+
+
+          <label for="radiotelefone"><input type="radio" name="contato" id="radiotelefone">Telefone</label>
+
+
+          <label for="radiowhatsapp"> <input type="radio" name="contato" id="radiowhatsapp">Whatsapp</label>
+
+        </div>
+
+
+        <p class="dados2">Sexo do Animal:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Macho</label>
+        <br>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Fêmea</label>
+        <br>
+        
+       <p class="dados3"> Dados da Residencia:</p>
+        <br> <br>
+        <div class="inputBox">
+          <label for="cidade" class="labelInput">Cidade:</label>
+          <input type="text" name="cidade" id="cidade" class="inputUser" required="cidade" placeholder="Digite sua Cidade">
+
+        </div>
+        <br><br>
+
+        <div class="inputBox">
+          <label for="estado" class="labelInput">Estado:</label>
+          <input type="text" name="estado" id="estado" class="inputUser" required="estado" placeholder="Digite seu Estado">
+
+        </div>
+        <br><br>
+
+
+        <div class="inputBox">
+          <label for="endereco" class="labelInput">Endereço:</label>
+          <input type="text" name="endereco" id="endereco" class="inputUser" required="endereco" placeholder="Digite seu Endereço">
+
+        </div>
+        <br><br>
+
+        <button id="submit">Enviar</button>
+
+
+    </div>
+
+    </fieldset>
+
+  </form>
+
+
+
+</body>
+
+</html>
